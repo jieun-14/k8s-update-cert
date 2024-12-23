@@ -24,10 +24,6 @@ front-proxy-ca          Dec 17, 2034 14:15 UTC   9y              no
 # git
 git clone https://github.com/yuyicai/update-kube-cert.git
 
-# 10년을 100년으로 변경
-cd update-kube-cert
-vi update-kubeadm-cert.sh
-    CERT_DAYS=36500 # 3650에서 36500으로 변경경
 
 # 실행
 chmod 755 update-kubeadm-cert.sh
